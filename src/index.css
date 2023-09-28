@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Teko:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+
+:root {
+  --nav: #323b41; /* Professional blue color */
+  --fontStyle: "Bebas Neue", cursive;
+}
+
+@media only screen and (max-width: 424px) {
+  #card-image {
+    width: 11rem;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  :root {
+    font-size: 11px;
+  }
+}
+
+body {
+  background-image: linear-gradient(to bottom, #2c3e50, #ffffff, #2c3e50); /* Gradient background */
+  background-color: #2c3e50; /* A dark blue-gray background color */
+  font-family: var(--fontStyle);
+}
+
+@media only screen and (max-width: 992px) {
+  #detailAddedImage {
+    width: 100%;
+  }
+}
+
+a {
+  color: #e74c3c; /* A professional red color */
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+#content {
+  padding: 20px;
+}
+
+h1,
+h2,
+h3 {
+  text-align: center;
+  color: #333; /* A dark gray color for headings */
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.card {
+  border: 1px solid #ddd; /* Light gray border */
+  background-color: #fff; /* White background for cards */
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  box-shadow: 10 12px 14px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+}
+
+p {
+  letter-spacing: 1px;
+  color: #333; /* Dark gray text color */
+}
